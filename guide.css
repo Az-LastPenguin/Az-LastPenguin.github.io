@@ -1,0 +1,95 @@
+body {
+    color: #ffffff;
+    background-color: #000000;
+    margin: 0;
+}
+
+.guide {
+  display: flex;
+}
+
+.guideimage {
+  min-width: 0px;
+  width: 100%;
+}
+
+.div-f8277c {
+  min-width: 0px;
+  max-width: 1024px;
+  width: auto;
+  position: relative;
+}
+
+.guidelink {
+  position: absolute;
+}
+
+@media screen and (min-width: 576px) {
+
+  .guide {
+    display: flex;
+  }
+
+  .guideimage {
+    max-width: 1024px;
+    min-width: 0px;
+    width: 100%;
+  }
+
+  .div-f8277c {
+    min-width: 0px;
+    max-width: 1024px;
+    width: auto;
+  }
+
+  .guidelink {
+    position: absolute;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+
+  .guideimage {
+    width: 100%;
+  }
+
+  .guide {
+    display: flex;
+  }
+
+  .div-f8277c {
+    min-width: 0px;
+    max-width: 1024px;
+    width: auto;
+  }
+
+  .guidelink {
+    position: absolute;
+  }
+
+}
+  
+@media screen and (min-width: 992px) {
+  .guide {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .guideimage {
+    width: 100%;
+  }
+
+  .div-f8277c {
+    max-width: 1024px;
+    min-width: 0px;
+    position: relative;
+    width: auto;
+  }
+
+  .guidelink {
+    position: absolute;
+  }
+}
